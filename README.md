@@ -44,27 +44,20 @@ Next, add this to your `package.json` file:
 }
 ```
 
-Create a Prettier config file in the root of the project:
+Copy the Prettier config file in the root of your project:
 
-`.prettierrc`
+You can [download](https://raw.githubusercontent.com/nemanjakrstic/prettier-template/master/.prettierrc) the file directly or use the command line:
 
-```json
-{
-    "semi": true,
-    "printWidth": 120,
-    "trailingComma": "all",
-    "singleQuote": true,
-    "tabWidth": 4,
-    "arrowParens": "avoid"
-}
+```bash
+$ curl https://raw.githubusercontent.com/nemanjakrstic/prettier-template/master/.prettierrc -o .prettierrc
 ```
 
 Since we want to format all supported files in the project, except the package-lock.json file, we need to create a Prettier ignore file in the root of the project:
 
-`.prettierignore`
+You can [download](https://raw.githubusercontent.com/nemanjakrstic/prettier-template/master/.prettierignore) the file directly or use the command line:
 
-```
-package-lock.json
+```bash
+$ curl https://raw.githubusercontent.com/nemanjakrstic/prettier-template/master/.prettierignore -o .prettierignore
 ```
 
 ## Usage
