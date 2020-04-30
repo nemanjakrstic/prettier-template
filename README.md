@@ -20,13 +20,13 @@ If you are creating a new project, easiest way to get started is to use this tem
 
 ### 2. Start from Scratch
 
-First, install the required dependencies:
+First, install the Prettier:
 
 ```bash
-$ npm install prettier pretty-quick husky --save-dev
+$ npm install prettier --save-dev
 ```
 
-Next, add this to your `package.json` file:
+Next, add these scripts to your `package.json` file:
 
 `package.json`
 
@@ -35,11 +35,6 @@ Next, add this to your `package.json` file:
     "scripts": {
         "format": "prettier --write .",
         "format:check": "prettier --check ."
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged"
-        }
     }
 }
 ```
@@ -62,8 +57,6 @@ $ curl https://raw.githubusercontent.com/nemanjakrstic/prettier-template/master/
 
 ## Usage
 
-You probably don't need to run the following commands since all changed files will be formatted automatically after you create a commit.
-
 To format all the files manually:
 
 ```bash
@@ -76,7 +69,7 @@ Check if all files are formatted properly:
 $ npm run format:check
 ```
 
-### Auto-format on Commit
+### Auto-format on Save
 
 It's strongly recommended to setup your editor to run the Prettier on every file save to take all the advantages that Prettier offers.
 
