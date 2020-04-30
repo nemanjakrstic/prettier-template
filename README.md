@@ -6,6 +6,10 @@ Please, watch this great introduction video from the creator of Prettier (8 minu
 
 [![A Prettier Printer by James Long on React Conf 2017](https://prettier.io/docs/assets/youtube-cover/a-prettier-printer-by-james-long-on-react-conf-2017.png)](https://www.youtube.com/watch?v=hkfBvpEfWdA)
 
+## Requirements
+
+Node.js v10 or newer.
+
 ## Getting Started
 
 There are two options:
