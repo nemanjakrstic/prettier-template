@@ -83,7 +83,7 @@ Check if all files are formatted properly:
 $ npm run format:check
 ```
 
-### Auto-format on commit
+### Auto-format on Commit
 
 It's strongly recommended to setup your editor to run the Prettier on every file save to take all the advantages that Prettier offers.
 
