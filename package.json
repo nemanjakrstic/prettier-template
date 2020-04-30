@@ -1,8 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "format": "prettier --write './**/*.{js,css,scss,json,html,md}'",
-        "format:check": "prettier --check './**/*.{js,css,scss,json,html,md}'"
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
     },
     "devDependencies": {
         "husky": "^4.2.5",
