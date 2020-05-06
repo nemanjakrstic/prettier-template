@@ -8,7 +8,7 @@ Please, watch this great introduction video from the creator of Prettier (8 minu
 
 ## Requirements
 
-Node.js v10 or newer.
+Node.js v10.13.0 or newer.
 
 ## Getting Started
 
